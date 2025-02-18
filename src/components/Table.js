@@ -62,7 +62,7 @@ export const TableLayout = ({ brokers, load }) => {
                   : styles.paginationButton
               }
             >
-              {index+1+slide} "segseg"
+              {index+1+slide} "segseg "
             </button>
           ))}
           <FaArrowRight onClick={(e)=>setSlide(slide+3)}/>
