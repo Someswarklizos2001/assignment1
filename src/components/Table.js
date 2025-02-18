@@ -64,6 +64,8 @@ export const TableLayout = ({ brokers, load }) => {
             >
               {index+1+slide} "segseg"
               {index+1+slide} "segseg"
+              {index+1+slide} "segseg "
+              sgseg
             </button>
           ))}
           <FaArrowRight onClick={(e)=>setSlide(slide+3)}/>
