@@ -55,7 +55,7 @@ export const TableLayout = ({ brokers, load }) => {
               onClick={(e) => setCurrentPage(index)}
               className={index===currentPage? styles.clickedPaginationButton:styles.paginationButton}
             >
-              {index + 1}
+              {index + 1} 
             </button>
           ))}
       </div>
