@@ -65,7 +65,7 @@ export const EntryCreateModal = ({ show, setShow, setBrokers }) => {
   });
 
   const onSubmit = (data) => {
-    if (file.length === 0) return toast.error("Please upload profile picture...");
+    if (file.length === 0) return toast.error("Please upload profile picture...segseg");
     setLoad(true);
     const formData = new FormData();
 
