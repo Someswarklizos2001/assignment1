@@ -15,7 +15,7 @@ export const TableLayout = ({ brokers, load }) => {
     <div className={styles.tableContainer}>
       {load ? (
         <div className={styles.center}>
-          loading...
+          loading1....
         </div>
       ) : (
         <Table striped bordered hover className={styles.table}>
