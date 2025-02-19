@@ -20,6 +20,14 @@ export const TableLayout = ({ brokers, load }) => {
           segsegoihsegseg
           segsegsegsegseg
           segsegsegsegseg
+          <CircularProgress/>
+          <CircularProgress/>
+          <CircularProgress/>
+          <CircularProgress/>
+          <CircularProgress/>
+          <CircularProgress/>
+          <CircularProgress/>
+          <CircularProgress/>
         </div>
       ) : (
         <Table striped bordered hover className={styles.table}>
