@@ -1,7 +1,7 @@
 export const Pagination=()=>{
     return(
         <div>
-            segseg
+            Pagination
         </div>
     )
 }

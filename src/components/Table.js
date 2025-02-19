@@ -15,7 +15,7 @@ export const TableLayout = ({ brokers, load }) => {
     <div className={styles.tableContainer}>
       {load ? (
         <div className={styles.center}>
-          <CircularProgress/> sgegseg
+          <CircularProgress/>
         </div>
       ) : (
         <Table striped bordered hover className={styles.table}>
